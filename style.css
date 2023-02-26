@@ -1,0 +1,598 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin-left:0;
+    margin-right: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+td {
+    border-bottom: 1px solid #000;
+}
+
+/* Header */
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    margin-right: 70px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between
+}
+
+.menu-link {
+    margin-left: 10px;
+    padding: 43px 20px;
+    transition: background 0.3s linear;
+}
+
+.menu-link:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Bike */
+
+.bike {
+    margin-top: 100px;
+}
+
+.bike-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bike-column-slider {
+    width: 630px;
+    flex-basis: 630px;
+    margin-left: 30px;
+}
+
+.bike-title {
+    width: 539px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    margin: 60px 0 5px;
+}
+
+.bike-subtitle {
+    margin: 0 0 60px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #6f6f6f;
+}
+
+.bike-text {
+    width: 420px;
+    margin-bottom: 108px;
+}
+
+.bike-text-little {
+    width: 420px;
+}
+
+.bike-link {
+    padding: 28px 59px 28px 81px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.1em;
+    text-transform: uppercase;
+
+    border-radius: 30px;
+
+    background-color: #131313;
+    color: #fff;
+    text-align: center;
+
+    transition: background 0.3s linear;
+}
+
+.bike-link:hover {
+    background-color: #ff4040;
+}
+
+.bike-slider .slick-dots{
+    right: 0;
+    top: 0;
+
+}
+.slick-dots {
+    position: absolute;
+
+}
+
+.slick-dots li {
+    margin-top: 10px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    padding: 0px;
+    border: none;
+    background-color: #131313;
+    width: 5px;
+    height: 25px;
+    transition: all .3s linear;
+
+    border-radius: 7px;
+}
+
+.slick-dots button:hover,
+.slick-dots button:active {
+    background-color: #ff4040;
+    cursor: pointer;
+}
+
+.bike-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.bike-list-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    min-width: 160px;
+    text-align: center;
+    color: #131313;
+}
+
+.bike-list-item span {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.5px;
+    text-transform: lowercase;
+}
+
+.about {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.about-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.about-text-inner p {
+    margin-bottom: 50px;
+}
+
+.paragraph-text {
+    max-width: 490px;
+}
+
+
+.character-title {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.text-title {
+    margin: 0 0 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.character {
+    margin-bottom: 150px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+
+.table-title {
+    background-color: #131313;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.table td {
+    width: 285px;
+    margin-bottom: 5px;
+}
+
+.character-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.character-img {
+    max-width: 570px;
+    height: 410px;
+
+}
+
+.big-bike-slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-bike-slider-item  {
+    width: 1000px;
+    text-align: right;
+}
+
+.form {
+    margin-top: 50px;
+
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+
+.fform {
+    color: #6f6f6f;
+}
+
+.form-title {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.form-text {
+    margin-bottom: 30px;
+    max-width: 298px;
+}
+
+.form-item {
+    display: block;
+    margin-bottom: 20px;
+    width: 420px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.choose-color {
+    display: block;
+}
+
+.buttons-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+    width: 286px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+button {
+    width: 80px;
+    height: 12px;
+    border-radius: 30px;
+}
+
+.color1 {
+    background-color: #6f6f6f;
+    border: none;
+}
+
+.color1:hover {
+    cursor: pointer;
+    background-color: #5e5e5e;
+}
+
+.color2 {
+    background-color: #fff;
+    border: 1px solid #6f6f6f;
+}
+
+.color2:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.color3 {
+    background-color: #ff4040;
+    border: none;
+}
+
+.color3:hover {
+    background-color: #ff2626;
+    cursor: pointer;
+}
+
+.color-bike-img {
+    width: 630px;
+    height: 403px;
+}
+
+.footer {
+    background-color: #000;
+    color: #ffffff;
+    padding: 21px 0 21px;
+    margin-top: 100px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 373px;
+}
+
+.rules-link {
+    width: 185px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+}
+
+.nav {
+    max-width: 184px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Media */
+
+@media (max-width: 1270px){
+    .bike {
+        margin-top: 0;
+    }
+
+    .bike-inner {
+        flex-wrap: wrap;
+    }
+
+    .bike-column {
+        width: 100%;
+    }
+
+    .bike-column-slider {
+        margin-top: 75px;
+    }
+
+    .bike-text {
+        width: 100%;
+    }
+
+    .bike-text-little {
+        width: 100%;
+    }
+
+    .bike-column-slider {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 1px;
+    }
+
+    .bike-link {
+        text-align: center;
+    }
+
+    .character-img {
+        max-width: 100%;
+    }
+
+    .inner {
+        flex-wrap: wrap;
+    }
+
+    .color-bike-slider {
+        flex-basis: 100%;
+    }
+
+    .color-bike-img {
+        max-width: 100%;
+    }
+
+    .form-inner {
+        max-width: 100%;
+    }
+
+    .form-item {
+        max-width: 100%;
+    }
+
+    .footer-inner {
+        gap: initial;
+    }
+}
+
+@media (max-width: 1150px){
+    .about-img {
+        display: none;
+    }
+
+    .paragraph-text {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .about {
+        margin-top: 75px;
+    }
+
+    .footer-inner {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 990px){
+    .menu {
+        margin-right: 0;
+    }
+
+    .character-inner {
+        flex-wrap: wrap;
+    }
+
+    .character-img {
+        order: -1;
+        margin-bottom: 40px;
+    }
+
+    .tables-inner {
+        width: 100%;
+    }
+
+    .table {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 670px){
+    .header-inner {
+        display: block;
+        text-align: center;
+    }
+
+    .menu-list {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+
+    .bike-list {
+        flex-wrap: wrap;
+    }
+
+    .bike-list-item {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+    .bike-title {
+        width: 100%;
+        font-size: 44px;
+        line-height: 67px;
+        margin: 30px 0 5px;
+    }
+
+
+    .bike-subtitle {
+        margin: 0 0 60px;
+        font-size: 22px;
+        line-height: 29px;
+        color: #6f6f6f;
+    }
+}
+
+@media(max-width: 575px){
+    .bike-text,
+    .bike-text-little {
+        font-size: 12px;
+
+    }
+
+    .character {
+        margin-bottom: 75px;
+    }
+
+    .character-img {
+        display: none;
+    }
+
+    .footer-inner {
+        display: block;
+        height: auto;
+        padding: 20px 0 ;
+        text-align: center;
+    }
+
+    .footer-logo {
+        display: block;
+        padding: 10px 0;
+    }
+}
+
+@media(max-width: 470px){
+    .menu-link{
+        padding: 25px 0;
+    }
+
+    .bike-link {
+        padding: 15px;
+        letter-spacing: 0.9em;
+    }
+
+    .bike-title {
+        font-size: 34px;
+    }
+
+}
+
+@media(max-width: 370px){
+    .header-inner {
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .menu {
+        font-size: 10px;
+    }
+
+    .menu-list {
+        margin-top: 25px;
+    }
+}
+
